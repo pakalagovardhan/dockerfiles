@@ -1,7 +1,7 @@
 FROM almalinux:9
 #CMD ["ping","google.com"]
 RUN dnf install git -y
-RUN useradd Govardhan
+RUN useradd govardhan
 
 USER govardhan
 CMD ["google.com"]
